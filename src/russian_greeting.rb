@@ -1,5 +1,5 @@
-class RussianGreeting
-  def hello
+class RussianGreeting 
+  def self.hello
     'привет'
   end
 end

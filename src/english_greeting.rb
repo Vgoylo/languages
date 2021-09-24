@@ -1,5 +1,5 @@
 class EnglishGreeting
-  def hello 
+  def self.hello 
     'hi'
   end
 end
