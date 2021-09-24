@@ -4,8 +4,10 @@ puts '1. English'
 puts '2. Espaniol'
 puts '3. Russia'
 puts '4. Arabi'
+result = 0
 
-result = gets.chomp
-
+while !('1'..'4').to_a.include?(result) do 
+  result = gets.chomp
+end
 
 puts result
